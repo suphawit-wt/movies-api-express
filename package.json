@@ -1,6 +1,7 @@
 {
   "name": "movies-api-mongo",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "app.js",
   "scripts": {
@@ -8,7 +9,6 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
