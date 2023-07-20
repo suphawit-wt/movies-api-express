@@ -37,8 +37,6 @@ jobs:
       # Step 4 - Testing
       - name: Testing
         run: yarn test
-        env:
-          MONGO_URL: mongodb+srv://username:password@clusterone.gcnbb.mongodb.net/?retryWrites=true&w=majority
 
   build-and-deploy:
     needs: test
